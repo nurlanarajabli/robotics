@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 import styles from './Wishlist.module.scss'
 import axios from 'axios'
 import CardWishlist from '../../components/cards/CardWishlist'
+import Header from '../../components/header/Header'
 
 const Wishlist = () => {
 
