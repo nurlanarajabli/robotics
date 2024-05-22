@@ -30,7 +30,12 @@ const Wishlist = () => {
   return (
     <>
          <Header/>
-        <div className={styles.pro} >
+         <div style={{display:'flex',alignItems:'center',justifyContent:'center',fontSize:30,color:'blueviolet',height:"15rem"}}>
+            <h1>WISHLIST</h1>
+         </div>
+         
+         <div className={styles.pro} >
+         
             {
                 data && data.map(item=> <CardWishlist key={item} item={item} sil={()=>deleteItem(item.id)}/>)
             }

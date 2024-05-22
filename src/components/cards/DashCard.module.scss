@@ -1,0 +1,48 @@
+.box {
+    width: 70%;
+    height: 6rem;
+    display: flex;
+    // align-items: center;
+    justify-content: space-between;
+    border: 1px solid grey;
+    background-color: bisque;
+
+    .dashimg {
+        width: 30%;
+        padding: 10px;
+
+        img {
+            width: 80%;
+            height: 5rem;
+            // margin-top: 20px;
+            margin-left: 20px;
+        }
+    }
+
+    .dashbox {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        display: flex;
+        gap: 4px;
+
+
+        span {
+            font-size: 16px;
+            color: red;
+            margin-top: 20px;
+        }
+    }
+
+    .btn {
+        width: 20%;
+        height: 3rem;
+        margin-top: 20px;
+        margin-right: 20px;
+        padding: 4px;
+        cursor: pointer;
+        background-color: blueviolet;
+        border: none;
+        color: white;
+    }
+}

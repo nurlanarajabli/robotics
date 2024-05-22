@@ -4,22 +4,19 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    // flex-wrap: wrap;
     margin: auto;
-    // background-color: #8E90FF;
+
 
     .card {
-        width: 100%;
+        width: 90%;
         flex-wrap: wrap;
         display: flex;
         align-items: space-between;
         justify-content: center;
-        // flex-direction: column;
-    
         text-align: center;
-        // margin: 5px;
         height: auto;
-        // background-color: greenyellow;
+        border: 2px dashed blueviolet;
+
 
 
         .cardBox {
@@ -27,7 +24,7 @@
             display: flex;
             align-items: center;
             justify-content:space-between;
-            // background-color: pink;
+
 
             img {
                 width: 100%;
@@ -42,11 +39,10 @@
             align-items: center;
             justify-content: center;
             flex-direction: column;
-            // gap: 5px;
             text-align: even;
             margin-top: 8px;
 
-            // padding: 3px;
+
             h6 {
                 font-size: 18px;
                 line-height: 22px;

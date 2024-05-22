@@ -26,6 +26,9 @@ const deleteItem=(id)=>{
   return (
     <div>
     <Header/>
+    <div style={{display:'flex',alignItems:'center',justifyContent:'center',fontSize:30,color:'blueviolet',height:"15rem"}}>
+            <h1>BASKET</h1>
+         </div>
         <div className={styles.pro}>
             {
                 data && data.map(item=> <CardBasket key={item} item={item} sil={()=>deleteItem(item.id)}/>)

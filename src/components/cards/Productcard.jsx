@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./ProductCaard.module.scss";
 
-const Productcard = ({ item, addToBasket, sil }) => {
+const Productcard = ({ item, addToBasket, addToWish }) => {
   return (
     <div>
       <div className={styles.contCard}>
@@ -13,7 +13,7 @@ const Productcard = ({ item, addToBasket, sil }) => {
             <h6>{item?.title}</h6>
             <p>${item?.price}</p>
             <button onClick={addToBasket}> Add to Card </button>
-            <button onClick={sil}>Favori</button>
+            <button onClick={addToWish}>Favori</button>
           </div>
         </div>
       </div>

@@ -24,7 +24,7 @@ const Header = () => {
                     <li><a href="">PRODUCTS</a></li>
                     <li><a href="">BLOG<IoIosArrowDown /></a></li>
                     <li><a href="" onClick={()=>navigation('/wishlist')}>WISHLIST</a></li>
-                    <li><a href="">DROPDOWN <IoIosArrowDown /></a></li>
+                    <li><a href="" onClick={()=>navigation('/panel')}>DASHBOARD <IoIosArrowDown /></a></li>
                 </ul>
             </nav>
             <div className={styles.menu}>
